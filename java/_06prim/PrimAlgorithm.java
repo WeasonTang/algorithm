@@ -21,6 +21,11 @@ public class PrimAlgorithm {
         minTree.createGraph(mGraph, vertexNum, data, weight);
         minTree.showGraph(mGraph);
 
+        // 测试 prim suanfa
+        minTree.prim(mGraph, 0);
+
     }
+
+    
 
 }

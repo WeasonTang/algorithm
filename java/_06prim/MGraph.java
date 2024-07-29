@@ -11,4 +11,6 @@ public class MGraph {
         data = new char[vertexNum];
         weight = new int[vertexNum][vertexNum];
     }
+
+    
 }
