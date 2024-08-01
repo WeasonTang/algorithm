@@ -168,3 +168,49 @@
 ### 最短路径问题
 
 <img src="assets/image-20240801075354611.png" alt="image-20240801075354611" style="zoom:67%;" />
+
+<img src="assets/image-20240801133306346.png" alt="image-20240801133306346" style="zoom:67%;" />
+
+
+
+## 9.Floyd(弗洛伊德)算法
+
+**基本介绍**
+
+![image-20240801133554528](assets/image-20240801133554528.png)
+
+
+
+![image-20240801142600640](assets/image-20240801142600640.png)
+
+
+
+应用场景
+
+### 最短路径问题
+
+<img src="assets/image-20240801145844884.png" alt="image-20240801145844884" style="zoom:67%;" />
+
+![image-20240801144858719](assets/image-20240801144858719.png)
+
+![image-20240801145658901](assets/image-20240801145658901.png)
+
+
+
+## 10.骑士周游回溯算法
+
+**基本介绍**
+
+![image-20240801162619836](assets/image-20240801162619836.png)
+
+
+
+<img src="assets/image-20240801164410996.png" alt="image-20240801164410996" style="zoom:67%;" />
+
+![image-20240801165810942](assets/image-20240801165810942.png)
+
+
+
+**使用贪心算法优化**
+
+<img align=left src="assets/image-20240801203322166.png" alt="image-20240801203322166" style="zoom: 50%;" />

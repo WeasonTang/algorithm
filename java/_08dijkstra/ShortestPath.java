@@ -22,7 +22,7 @@ public class ShortestPath {
         Graph graph = new Graph(vertex, matrix);
         graph.showGraph();
 
-        graph.dijkstra(5);
+        graph.dijkstra(2);
 
     }
 
