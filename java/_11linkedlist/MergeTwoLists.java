@@ -1,4 +1,4 @@
-package linkedlist;
+package _11linkedlist;
 
 /* 
     将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
@@ -114,40 +114,3 @@ public class MergeTwoLists {
     }
 }
 
-// Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-    public void addNode(ListNode node) {
-        ListNode temp = this;
-
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-        temp.next = node;
-    }
-
-    public void show() {
-        ListNode temp = this;
-        System.out.print("[");
-        while (temp != null) {
-            System.out.print(temp.val + " ");
-            temp = temp.next;
-        }
-        System.out.println("]");
-    }
-}
