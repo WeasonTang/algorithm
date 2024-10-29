@@ -8,7 +8,7 @@ public class StringMatch {
         String str2 = "ABCDABD";
         // 暴力匹配 效率低
         // System.out.println(violenceMatch(str1, str2));
-
+        
         
         System.out.println(kmpMatch(str1, str2));
 

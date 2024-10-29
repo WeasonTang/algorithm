@@ -65,6 +65,12 @@ public class IsAnagram {
             }
         }
 
+        
+
+        if (sMap.size() != tMap.size()) {
+            return false;
+        }
+
         for (Entry<Character,Integer> sEntry : sMap.entrySet()) {
             Integer tValue = tMap.get(sEntry.getKey());
             if (tValue == null || !tValue.equals(sEntry.getValue())) {
